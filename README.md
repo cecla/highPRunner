@@ -1,4 +1,4 @@
 # highPRunner
 An EPFL project in the course Personal Interaction Studio
 
-[a link](http://cecilialagerwall.se/highprunner/storyboard/)
+Check out the [storyboard](http://cecilialagerwall.se/highprunner/storyboard/)
