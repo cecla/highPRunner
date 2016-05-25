@@ -1,7 +1,12 @@
 # highPRunner
-An EPFL project in the course Personal Interaction Studio
+An EPFL project in the course Personal Interaction Studio.
 
-Check out the [storyboard](http://cecilialagerwall.se/highprunner/storyboard/)
+**Links to different parts of the project:**
+[web-app](http://cecilialagerwall.se/highprunner/)
+[storyboard](http://cecilialagerwall.se/highprunner/storyboard/) (Includes persona)
+<!-- [presentation](http://slides.com/luvan1/highprunner/fullscreen) -->
+
+The web-app uses a map from MapBox. For some calculations in the JavaScript file, the math.js library is used. jquery is also used.
 
 How the web-app works:
 --------------
