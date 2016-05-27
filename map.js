@@ -280,6 +280,7 @@ var maxSpeed;
 
 function moveMarker() {
 	maxSpeed = math.max(speed);
+	var sizeS = 0;
 
 	var r1 = parseInt($("#pickTrack1 option:selected").text());
 	var r2 = parseInt($("#pickTrack2 option:selected").text());
@@ -290,22 +291,26 @@ function moveMarker() {
 			if (t < singelRoute[0].length) {
 
 				if(singelRoute[r1][t][2] < (maxSpeed * 0.4)) {
-					color = '#40ff00'; //green
+					color = '#4000ff'; //green
+					sizeS = 20;
 					//updateSpeed = 300;
 				} else if (singelRoute[r1][t][2] >= (maxSpeed * 0.4) && singelRoute[r1][t][2] < (maxSpeed * 0.6)) {
-					color = '#ffff00'; //yeloow
+					color = '#8000ff'; //yeloow
+					sizeS = 30;
 					//updateSpeed = 200;
 				} else if (singelRoute[r1][t][2] >= (maxSpeed * 0.6) && singelRoute[r1][t][2] < (maxSpeed * 0.8)) {
-					color = '#ff9900'; //orange
+					color = '#bf00ff'; //orange
+					sizeS = 40;
 					//updateSpeed = 100;
 				} else {
-					color = '#FF0000'; //red
+					color = '#ff00ff'; //red
+					sizeS = 50;
 					//updateSpeed = 10;
 				}
 					//}
 
 
-				circle =	L.circle([singelRoute[r1][t][0], singelRoute[r1][t][1]], 20, {
+				circle =	L.circle([singelRoute[r1][t][0], singelRoute[r1][t][1]], sizeS, {
 									color: color,
 									opacity: 0.4,
 									stroke: false
@@ -314,22 +319,26 @@ function moveMarker() {
 			t++;
 			if (t < singelRoute[r1].length) {
 				if(singelRoute[r1][t][2] < (maxSpeed * 0.4)) {
-					color = '#40ff00'; //green
+					color = '#4000ff'; //green
+					sizeS = 20;
 					//updateSpeed = 300;
 				} else if (singelRoute[r1][t][2] >= (maxSpeed * 0.4) && singelRoute[r1][t][2] < (maxSpeed * 0.6)) {
-					color = '#ffff00'; //yeloow
+					color = '#8000ff'; //yeloow
+					sizeS = 30;
 					//updateSpeed = 200;
 				} else if (singelRoute[r1][t][2] >= (maxSpeed * 0.6) && singelRoute[r1][t][2] < (maxSpeed * 0.8)) {
-					color = '#ff9900'; //orange
+					color = '#bf00ff'; //orange
+					sizeS = 40;
 					//updateSpeed = 100;
 				} else {
-					color = '#FF0000'; //red
+					color = '#ff00ff'; //red
+					sizeS = 50;
 					//updateSpeed = 10;
 				}
 					//}
 
 
-				circle =	L.circle([singelRoute[r1][t][0], singelRoute[r1][t][1]], 20, {
+				circle =	L.circle([singelRoute[r1][t][0], singelRoute[r1][t][1]], sizeS, {
 									color: color,
 									opacity: 0.4,
 									stroke: false
@@ -338,22 +347,26 @@ function moveMarker() {
 
 			if (y < singelRoute[r2].length) {
 				if(singelRoute[r2][y][2] < (maxSpeed * 0.4)) {
-					color = '#40ff00'; //green
+					color = '#ff4000'; //green
+					sizeS = 20;
 					//updateSpeed = 300;
 				} else if (singelRoute[r2][y][2] >= (maxSpeed * 0.4) && singelRoute[r2][y][2] < (maxSpeed * 0.6)) {
-					color = '#ffff00'; //yeloow
+					color = '#ff8000'; //yeloow
+					sizeS = 30;
 					//updateSpeed = 200;
 				} else if (singelRoute[r2][y][2] >= (maxSpeed * 0.6) && singelRoute[r2][y][2] < (maxSpeed * 0.8)) {
-					color = '#ff9900'; //orange
+					color = '#ffbf00'; //orange
+					sizeS = 40;
 					//updateSpeed = 100;
 				} else {
-					color = '#FF0000'; //red
+					color = '#ffff00'; //red
+					sizeS = 50;
 					//updateSpeed = 10;
 				}
 					//}
 
 
-				circle =	L.circle([singelRoute[r2][y][0], singelRoute[r2][y][1]], 20, {
+				circle =	L.circle([singelRoute[r2][y][0], singelRoute[r2][y][1]], sizeS, {
 									color: color,
 									opacity: 0.4,
 									stroke: false
@@ -362,22 +375,26 @@ function moveMarker() {
 		} else {
 			if (t < singelRoute[r1].length) {
 				if(singelRoute[r1][t][2] < (maxSpeed * 0.4)) {
-					color = '#40ff00'; //green
+					color = '#4000ff'; //green
+					sizeS = 20;
 					//updateSpeed = 300;
 				} else if (singelRoute[r1][t][2] >= (maxSpeed * 0.4) && singelRoute[r1][t][2] < (maxSpeed * 0.6)) {
-					color = '#ffff00'; //yeloow
+					color = '#8000ff'; //yeloow
+					sizeS = 30;
 					//updateSpeed = 200;
 				} else if (singelRoute[r1][t][2] >= (maxSpeed * 0.6) && singelRoute[r1][t][2] < (maxSpeed * 0.8)) {
-					color = '#ff9900'; //orange
+					color = '#bf00ff'; //orange
+					sizeS = 40;
 					//updateSpeed = 100;
 				} else {
-					color = '#FF0000'; //red
+					color = '#ff00ff'; //red
+					sizeS = 50;
 					//updateSpeed = 10;
 				}
 					//}
 
 
-				circle =	L.circle([singelRoute[r1][t][0], singelRoute[r1][t][1]], 20, {
+				circle =	L.circle([singelRoute[r1][t][0], singelRoute[r1][t][1]], sizeS, {
 									color: color,
 									opacity: 0.4,
 									stroke: false
@@ -386,22 +403,26 @@ function moveMarker() {
 
 			if (t < singelRoute[r2].length) {
 				if(singelRoute[r2][y][2] < (maxSpeed * 0.4)) {
-					color = '#40ff00'; //green
+					color = '#ff4000'; //green
+					sizeS = 20;
 					//updateSpeed = 300;
 				} else if (singelRoute[r2][y][2] >= (maxSpeed * 0.4) && singelRoute[r2][y][2] < (maxSpeed * 0.6)) {
-					color = '#ffff00'; //yeloow
+					color = '#ff8000'; //yeloow
+					sizeS = 30;
 					//updateSpeed = 200;
 				} else if (singelRoute[r2][y][2] >= (maxSpeed * 0.6) && singelRoute[r2][y][2] < (maxSpeed * 0.8)) {
-					color = '#ff9900'; //orange
+					color = '#ffbf00'; //orange
+					sizeS = 40;
 					//updateSpeed = 100;
 				} else {
-					color = '#FF0000'; //red
+					color = '#ffff00'; //red
+					sizeS = 50;
 					//updateSpeed = 10;
 				}
 					//}
 
 
-				circle =	L.circle([singelRoute[r2][y][0], singelRoute[r2][y][1]], 20, {
+				circle =	L.circle([singelRoute[r2][y][0], singelRoute[r2][y][1]], sizeS, {
 									color: color,
 									opacity: 0.4,
 									stroke: false
@@ -410,22 +431,26 @@ function moveMarker() {
 			y++;
 			if (y < singelRoute[r2].length) {
 				if(singelRoute[r2][y][2] < (maxSpeed * 0.4)) {
-					color = '#40ff00'; //green
+					color = '#ff4000'; //green
+					sizeS = 20;
 					//updateSpeed = 300;
 				} else if (singelRoute[r2][y][2] >= (maxSpeed * 0.4) && singelRoute[r2][y][2] < (maxSpeed * 0.6)) {
-					color = '#ffff00'; //yeloow
+					color = '#ff8000'; //yeloow
+					sizeS = 30;
 					//updateSpeed = 200;
 				} else if (singelRoute[r2][y][2] >= (maxSpeed * 0.6) && singelRoute[r2][y][2] < (maxSpeed * 0.8)) {
-					color = '#ff9900'; //orange
+					color = '#ffbf00'; //orange
+					sizeS = 40;
 					//updateSpeed = 100;
 				} else {
-					color = '#FF0000'; //red
+					color = '#ffff00'; //red
+					sizeS = 50;
 					//updateSpeed = 10;
 				}
 					//}
 
 
-				circle =	L.circle([singelRoute[r2][y][0], singelRoute[r2][y][1]], 20, {
+				circle =	L.circle([singelRoute[r2][y][0], singelRoute[r2][y][1]], sizeS, {
 									color: color,
 									opacity: 0.4,
 									stroke: false
@@ -434,11 +459,59 @@ function moveMarker() {
 		}
 	} else {
 		if (t < singelRoute[r1].length) {
-			vizCoord(singelRoute[r1][t][0], singelRoute[r1][t][1],singelRoute[r1][t][2]);
+			if(singelRoute[r1][t][2] < (maxSpeed * 0.4)) {
+					color = '#4000ff'; //green
+					sizeS = 20;
+					//updateSpeed = 300;
+				} else if (singelRoute[r1][t][2] >= (maxSpeed * 0.4) && singelRoute[r1][t][2] < (maxSpeed * 0.6)) {
+					color = '#8000ff'; //yeloow
+					sizeS = 30;
+					//updateSpeed = 200;
+				} else if (singelRoute[r1][t][2] >= (maxSpeed * 0.6) && singelRoute[r1][t][2] < (maxSpeed * 0.8)) {
+					color = '#bf00ff'; //orange
+					sizeS = 40;
+					//updateSpeed = 100;
+				} else {
+					color = '#ff00ff'; //red
+					sizeS = 50;
+					//updateSpeed = 10;
+				}
+					//}
+
+
+				circle =	L.circle([singelRoute[r1][t][0], singelRoute[r1][t][1]], sizeS, {
+									color: color,
+									opacity: 0.4,
+									stroke: false
+								}).addTo(map);
 		}
 
 		if (y < singelRoute[r2].length) {
-			vizCoord(singelRoute[r2][y][0], singelRoute[r2][y][1],singelRoute[r2][y][2]);
+			if(singelRoute[r2][y][2] < (maxSpeed * 0.4)) {
+					color = '#ff4000'; //green
+					sizeS = 20;
+					//updateSpeed = 300;
+				} else if (singelRoute[r2][y][2] >= (maxSpeed * 0.4) && singelRoute[r2][y][2] < (maxSpeed * 0.6)) {
+					color = '#ff8000'; //yeloow
+					sizeS = 30;
+					//updateSpeed = 200;
+				} else if (singelRoute[r2][y][2] >= (maxSpeed * 0.6) && singelRoute[r2][y][2] < (maxSpeed * 0.8)) {
+					color = '#ffbf00'; //orange
+					sizeS = 40;
+					//updateSpeed = 100;
+				} else {
+					color = '#ffff00'; //red
+					sizeS = 50;
+					//updateSpeed = 10;
+				}
+					//}
+
+
+				circle =	L.circle([singelRoute[r2][y][0], singelRoute[r2][y][1]], sizeS, {
+									color: color,
+									opacity: 0.4,
+									stroke: false
+								}).addTo(map);
 		}
 	}
 
@@ -546,14 +619,24 @@ function heartRateSlider(value) {
 
 	var i = 0;
 
+	var colorChange = Math.floor(255/(index/2));
+
 	while(i < len) {
 		var j = 0;
 		while(j < index) {
+			//change of color
+			if(j % 2 == 0) {
+				color = 'rgb(255,' + colorChange*j + ', 0)';
+			} else {
+				color = 'rgb(' + (255 - (colorChange*j)) + ', 255, 0)';
+			}
+
 			if ($.inArray(j,dataArray[i][0]) != -1 && indexArray[j][2] > value) {
 				L.circle([dataArray[i][1], dataArray[i][2]], 20, {
 					opacity: o,
 					stroke: false,
-					blur: 0.3
+					blur: 0.3,
+					color: color
 				}).addTo(map);
 
 			}
@@ -576,14 +659,23 @@ function speedSlider(value) {
 
 	var i = 0;
 
+	var colorChange = Math.floor(255/(index/2));
+
 	while(i < len) {
 		var j = 0;
 		while(j < index) {
+			//change of color
+			if(j % 2 == 0) {
+				color = 'rgb(255,' + colorChange*j + ', 0)';
+			} else {
+				color = 'rgb(' + (255 - (colorChange*j)) + ', 255, 0)';
+			}
 			if ($.inArray(j,dataArray[i][0]) != -1 && indexArray[j][3] > value) {
 				L.circle([dataArray[i][1], dataArray[i][2]], 20, {
 					opacity: o,
 					stroke: false,
-					blur: 0.3
+					blur: 0.3,
+					color: color
 				}).addTo(map);
 
 			}
@@ -593,6 +685,7 @@ function speedSlider(value) {
 	}
 }
 
+//NOT IMPLEMENTED
 function speedHour(time) {
 	// clear the layer before updating
 	removeCircleLayer();	
