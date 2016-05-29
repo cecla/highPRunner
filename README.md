@@ -10,6 +10,8 @@ An EPFL project in the course Personal Interaction Studio.
 - [Storyboard](http://cecilialagerwall.se/highprunner/storyboard/) (Includes persona)
 - [Presentation slides](http://slides.com/luvan1/highprunner/fullscreen)
 
+![stack Overflow](http://lmsotfy.com/so.png)
+
 The web-app uses a map from MapBox. For some calculations in the JavaScript file, the math.js library is used. jquery is also used.
 
 How the web-app works:
