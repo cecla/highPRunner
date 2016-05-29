@@ -3,12 +3,12 @@ An EPFL project in the course Personal Interaction Studio.
 
 **Links to different parts of the project:**
 - [Web-app](http://cecilialagerwall.se/highprunner/)
-- [Storyboard](http://cecilialagerwall.se/highprunner/storyboard/) (Includes persona)
-- [Genealogy of Ideas](http://cecilialagerwall.se/highprunner/genealogy/)
-- [Demo of prototype](http://cecilialagerwall.se/highprunner/demo/)
-- [Presentation slides](http://slides.com/luvan1/highprunner/fullscreen)
-- [Abstarct](http://cecilialagerwall.se/highprunner/abstract.pdf)
 - [Prototype Mobile UI](http://cecilialagerwall.se/highprunner/prototype) (All the buttons are not in function)
+- [Demo of prototype](http://cecilialagerwall.se/highprunner/demo/)
+- [Abstarct](http://cecilialagerwall.se/highprunner/abstract.pdf)
+- [Genealogy of Ideas](http://cecilialagerwall.se/highprunner/genealogy/)
+- [Storyboard](http://cecilialagerwall.se/highprunner/storyboard/) (Includes persona)
+- [Presentation slides](http://slides.com/luvan1/highprunner/fullscreen)
 
 The web-app uses a map from MapBox. For some calculations in the JavaScript file, the math.js library is used. jquery is also used.
 
