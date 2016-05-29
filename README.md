@@ -8,7 +8,7 @@ An EPFL project in the course Personal Interaction Studio.
 - [Demo of prototype](http://cecilialagerwall.se/highprunner/demo/)
 - [Presentation slides](http://slides.com/luvan1/highprunner/fullscreen)
 - [Abstarct](http://cecilialagerwall.se/highprunner/abstract.pdf)
-- [Prototype](http://cecilialagerwall.se/highprunner/prototype)
+- [Prototype Mobile UI](http://cecilialagerwall.se/highprunner/prototype) (All the buttons are not in function)
 
 The web-app uses a map from MapBox. For some calculations in the JavaScript file, the math.js library is used. jquery is also used.
 
