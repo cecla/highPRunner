@@ -4,7 +4,7 @@ An EPFL project in the course Personal Interaction Studio.
 **Links to different parts of the project:**
 - [Web-app](http://cecilialagerwall.se/highprunner/)
 - [Prototype Mobile UI](http://cecilialagerwall.se/highprunner/prototype) (All the buttons are not in function)
-- [Demo of prototypee](http://cecilialagerwall.se/highprunner/demo/)
+- [Demo of prototype](http://cecilialagerwall.se/highprunner/demo/)
 - [Abstractt](http://cecilialagerwall.se/highprunner/abstract.pdf)
 - [Genealogy of Ideas](http://cecilialagerwall.se/highprunner/genealogy/)
 - [Storyboard](http://cecilialagerwall.se/highprunner/storyboard/) (Includes persona)
