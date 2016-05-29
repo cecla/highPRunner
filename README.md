@@ -4,8 +4,8 @@ An EPFL project in the course Personal Interaction Studio.
 **Links to different parts of the project:**
 - [Web-app](http://cecilialagerwall.se/highprunner/)
 - [Prototype Mobile UI](http://cecilialagerwall.se/highprunner/prototype) (All the buttons are not in function)
-- [Demo of prototype](http://cecilialagerwall.se/highprunner/demo/)
-- [Abstarct](http://cecilialagerwall.se/highprunner/abstract.pdf)
+- [Demo of prototypee](http://cecilialagerwall.se/highprunner/demo/)
+- [Abstractt](http://cecilialagerwall.se/highprunner/abstract.pdf)
 - [Genealogy of Ideas](http://cecilialagerwall.se/highprunner/genealogy/)
 - [Storyboard](http://cecilialagerwall.se/highprunner/storyboard/) (Includes persona)
 - [Presentation slides](http://slides.com/luvan1/highprunner/fullscreen)
@@ -28,5 +28,17 @@ How the web-app works:
 	2. One point for track one if in that moment the speed is slower than track two and vice versa.
 	3. If one track has finished, the other track updates one point at the time.
 
-**Images
+**Images:**
+Start page
 ![start](http://cecilialagerwall.se/highprunner/img/start.png)
+View all data, colored by avg. heart rate
+![heart](http://cecilialagerwall.se/highprunner/img/heart.png)
+View all data, colored by avg. speed
+![speed](http://cecilialagerwall.se/highprunner/img/speed.png)
+Highlight one track
+![highlight](http://cecilialagerwall.se/highprunner/img/select.png)
+Filter tracks by either avg. speed or avg. heart rate. Each track get different color.
+![filter](http://cecilialagerwall.se/highprunner/img/filter.png)
+Animation of two tracks. The fastest in each point updates in double speed.
+![animation1](http://cecilialagerwall.se/highprunner/img/animation1.png)
+![animation2](http://cecilialagerwall.se/highprunner/img/animation.png)
