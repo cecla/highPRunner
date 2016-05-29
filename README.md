@@ -10,8 +10,6 @@ An EPFL project in the course Personal Interaction Studio.
 - [Storyboard](http://cecilialagerwall.se/highprunner/storyboard/) (Includes persona)
 - [Presentation slides](http://slides.com/luvan1/highprunner/fullscreen)
 
-![stack Overflow](http://lmsotfy.com/so.png)
-
 The web-app uses a map from MapBox. For some calculations in the JavaScript file, the math.js library is used. jquery is also used.
 
 How the web-app works:
@@ -29,3 +27,6 @@ How the web-app works:
 	1. The application draws one or two points at the time
 	2. One point for track one if in that moment the speed is slower than track two and vice versa.
 	3. If one track has finished, the other track updates one point at the time.
+
+**Images
+![start](http://cecilialagerwall.se/highprunner/img/start.png)
