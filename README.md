@@ -42,3 +42,6 @@ Filter tracks by either avg. speed or avg. heart rate. Each track get different 
 Animation of two tracks. The fastest in each point updates in double speed.
 ![animation1](http://cecilialagerwall.se/highprunner/img/animation1.png)
 ![animation2](http://cecilialagerwall.se/highprunner/img/animation.png)
+
+The storyboard
+![storyboard](http://cecilialagerwall.se/highprunner/img/storyboard.png)
